@@ -1,4 +1,4 @@
-DATA_ROOT = "/kaggle/input/YOUR_DATASET_NAME" 
+DATA_ROOT = "/kaggle/input/input-data2k/2kdata/Dataset-1k/New_Data100" 
 NOISY_SUBDIR = "Noisy"
 CLEAN_SUBDIR = "Clean"
 
@@ -6,11 +6,11 @@ IMG_SIZE = 384
 BATCH_SIZE = 8
 NUM_WORKERS = 2
 
-EPOCHS = 50
+EPOCHS = 30
 LR = 2e-4
 WEIGHT_DECAY = 1e-4
 
-MODEL_DIM = 48  # try 64 if GPU is strong
+MODEL_DIM = 48 
 SAVE_PATH = "best_restormer_gray.pth"
 
 W_L1 = 1.0
